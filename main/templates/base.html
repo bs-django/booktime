@@ -18,10 +18,16 @@
         <div class="collapse navbar-collapse" id="mainNavbar">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link {% if request.path == '/' %}active{% endif %}" href="/">Home</a>
+                    <a class="nav-link {% if request.path == '/' %}active{% endif %}"
+                       href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {% if request.path == '/about-us/' %}active{% endif %}" href="/about-us/">About us</a>
+                    <a class="nav-link {% if request.path == '/about-us/' %}active{% endif %}"
+                       href="/about-us/">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if request.path == '/contact-us/' %}active{% endif %}"
+                       href="/contact-us/">Contact</a>
                 </li>
             </ul>
         </div>
